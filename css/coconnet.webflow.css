@@ -457,6 +457,8 @@ a {
 }
 
 .h3.centre {
+  margin-bottom: 61px;
+  padding-top: 61px;
   text-align: center;
 }
 
@@ -1501,6 +1503,167 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
+.card__card {
+  width: 290px;
+  height: 290px;
+  padding: 16px;
+  border-radius: 32px;
+  background-color: #fff;
+}
+
+.card__texture {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 34%;
+  padding-right: 24px;
+  padding-left: 24px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 24px;
+  background-image: url('../images/2pawel-czerwinski-ruJm3dBXCqw-unsplash-1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.card__glass {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 72px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.card__desc {
+  margin-top: 66px;
+  text-align: center;
+}
+
+.container-2 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 106%;
+  height: 51%;
+  padding-top: 0px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.card__wrapper {
+  overflow: hidden;
+  width: 290px;
+  height: 362px;
+  border-radius: 32px;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.image-2 {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  width: 132px;
+  height: 132px;
+  margin-top: -66px;
+  border-style: solid;
+  border-width: 16px;
+  border-color: #fff;
+  border-radius: 50%;
+}
+
+.text-block {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.card__icon--right {
+  cursor: pointer;
+}
+
+.card__icon--left {
+  cursor: pointer;
+}
+
+.paragraph-2 {
+  margin-top: 8px;
+  margin-bottom: 0px;
+  font-family: Montserrat, sans-serif;
+  color: #3f3954;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  cursor: default;
+}
+
+.heading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Montserrat, sans-serif;
+  color: #000;
+  font-size: 20px;
+  line-height: 24px;
+  cursor: default;
+}
+
+.card__content {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 66%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.text-span-5 {
+  color: #f3c600;
+  font-weight: 600;
+}
+
 @media screen and (min-width: 1440px) {
   .container.large.absolute {
     position: absolute;
@@ -1570,6 +1733,10 @@ a {
 
   .logo-bar-main-wrapper---brix {
     margin-top: -59px;
+  }
+
+  .container-2 {
+    width: auto;
   }
 }
 
@@ -1804,6 +1971,15 @@ a {
     display: block;
     padding-right: 6px;
     padding-left: 6px;
+  }
+
+  .container-2 {
+    height: 1150px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -2428,7 +2604,7 @@ a {
   }
 
   .footer-wrap {
-    padding-top: 56px;
+    padding-top: 17px;
     padding-bottom: 40px;
   }
 
@@ -2461,6 +2637,10 @@ a {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
   }
 
   .small.right {
@@ -2534,7 +2714,7 @@ a {
     width: 9em;
     height: 2em;
     font-family: Montserrat, sans-serif;
-    font-size: 1em;
+    font-size: 0.8em;
     line-height: 1;
   }
 
